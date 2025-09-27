@@ -43,10 +43,10 @@
     padding: 30px 0 30px 0;
 }
 
-.naka {
-    padding: 10px 15px;
-    border-right: none;
+.menu li:last-child {
+    border: none;
 }
+
 
 li {
     padding: 10px 15px;
@@ -73,5 +73,7 @@ li {
         display: block;
         border-right: none;
         width: 100%;
+        box-sizing: border-box;
+        padding: 10px 0;
     }
 }
