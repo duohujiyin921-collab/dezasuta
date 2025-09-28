@@ -44,7 +44,7 @@
 }
 
 .menu li:last-child {
-    border: none;
+    border-right: none;
 }
 
 
