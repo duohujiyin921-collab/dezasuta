@@ -5,41 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <title>課題３</title>
 </head>
 
 <body>
-    <div class="haikei">
-        <h1>サービス</h1>
+    <section class="haikei">
+        <h2>サービス</h2>
         <div class="naka">
             <div class="box"><img src="images/main_1.jpg" alt="画像1">
-                <p>
-                <h3>サービス1</h3>サービス1サービス1サービス1サービス1サービス1サービス1サービス1</p>
+                <h3>サービス1</h3>
+                <p>サービス1サービス1サービス1サービス1サービス1サービス1サービス1</p>
             </div>
             <div class="box"><img src="images/main_2.png" alt="画像2">
-                <p>
-                <h3>サービス2</h3>サービス2サービス2サービス2サービス2サービス2サービス2サービス2</p>
+                <h3>サービス2</h3>
+                <p>サービス2サービス2サービス2サービス2サービス2サービス2サービス2</p>
             </div>
             <div class="box"><img src="images/main_3.png" alt="画像3">
-                <p>
-                <h3>サービス3</h3>サービス3サービス3サービス3サービス3サービス3サービス3サービス3</p>
+                <h3>サービス3</h3>
+                <p>サービス3サービス3サービス3サービス3サービス3サービス3サービス3</p>
             </div>
         </div>
-
-
-    </div>
+    </section>
 
     <script>
-        let sum = 10;
         let result = 0;
-        for (let i = 1; i <= sum; i++) {
+        for (let i = 1; i <= 10; i++) {
             result = result + i;
+            console.log(result);
 
-            if (result > 20) {
-                console.log("20以上");
-            } else {
-                console.log("20未満");
-            }
+        }
+        if (result >= 20) {
+            console.log("20以上");
+        } else {
+            console.log("20未満");
         }
     </script>
 </body>

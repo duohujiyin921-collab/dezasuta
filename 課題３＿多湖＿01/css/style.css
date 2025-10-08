@@ -1,14 +1,19 @@
 @charset "uft-8";
 
-.haikei {
-    max-width: 960px;
+body {
     background-color: #eeeeee;
 }
 
-h1 {
+.haikei {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
     color: green;
     display: flex;
     justify-content: center;
+    margin: 30px 0 50px 0;
 }
 
 .naka {
@@ -17,20 +22,15 @@ h1 {
 }
 
 .box {
-    width: 300px;
-    height: 350px;
-    background-color: aliceblue;
+    width: 31%;
+    background-color: snow;
 }
 
-img {
-    max-width: 100%;
-    padding: 0 10px 0 0;
-}
 
 h3 {
     color: green;
     border-left: 5px solid green;
-    margin: 10px 0 10px 5px;
+    margin: 5px 0 5px 5px;
 }
 
 @media screen and (max-width: 400px) {
@@ -39,12 +39,11 @@ h3 {
         flex-direction: column;
     }
 
-    .naka {
-        max-width: 100%;
+    .box {
+        width: 100%;
     }
 
     img {
-        max-width: 100%;
-        padding: 0;
+        width: 100%;
     }
 }
