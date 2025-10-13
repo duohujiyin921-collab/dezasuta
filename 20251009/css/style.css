@@ -1,0 +1,178 @@
+@charset "uft-8";
+
+body {
+    background-color: #eedcb3;
+}
+
+header {
+    position: relative;
+}
+
+.header_slider {
+    width: 100%;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7% 0 3%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header_logo {
+    width: 227px;
+}
+
+.pc_nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+.pc_nav ul li {
+    color: #fff;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+        "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 105px;
+    text-align: center;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 30px;
+    margin: 104px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.midasi {
+    font-size: 82px;
+    line-height: 1.17;
+    letter-spacing: 0.1em;
+    margin: 47px 0 0 0;
+}
+
+.main {
+    font-size: 23px;
+    line-height: 1.65;
+    letter-spacing: 0.1em;
+    margin: 21px 0 0 0;
+}
+
+.about_us {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.coffee img {
+    width: 500px;
+    margin: 91px 80px 0 0;
+    border-bottom-right-radius: 82px;
+}
+
+
+
+.about_0 {
+    width: 272px;
+    height: 77px;
+    margin: 153px 0 0 0;
+}
+
+.about_1 {
+    margin: 50px 0 0 0;
+    font-size: 44px;
+    line-height: 1.38;
+    width: 360px;
+}
+
+.about_2 {
+    font-size: 16px;
+    line-height: 1.62;
+    margin: 22px 0 0 0;
+    width: 410px;
+}
+
+.menu {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.menu_0 {
+    width: 151px;
+    height: 78px;
+    margin: 96px 0 38px 0;
+}
+
+.menu_1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.drink_0 img {
+    border-top-right-radius: 41px;
+}
+
+.drink_1 {
+    color: red;
+    font-size: 38px;
+    line-height: 0.57;
+    padding-left: 10px;
+}
+
+.drink_2 {
+    font-size: 17px;
+    line-height: 1.47;
+    width: 300px;
+    margin: 9px 0 0 0;
+}
+
+
+.food_0 img {
+    border-top-right-radius: 41px;
+}
+
+.food_1 {
+    color: red;
+    font-size: 38px;
+    line-height: 0.57;
+    padding-left: 10px;
+}
+
+.food_2 {
+    font-size: 17px;
+    line-height: 1.47;
+    width: 300px;
+    margin: 9px 0 0 0;
+}
+
+.sweets_0 img {
+    border-top-right-radius: 41px;
+}
+
+.sweets_1 {
+    color: red;
+    font-size: 38px;
+    line-height: 0.57;
+    padding-left: 10px;
+}
+
+.sweets_2 {
+    font-size: 17px;
+    line-height: 1.47;
+    width: 300px;
+    margin: 9px 0 0 0;
+}
