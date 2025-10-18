@@ -162,7 +162,7 @@ header {
 .box_2 {
     display: flex;
     justify-content: space-between;
-    width: 38%;
+    width: 20%;
 }
 
 
@@ -189,9 +189,11 @@ header {
 
 .box_3 {
     font-size: 23px;
-    margin: 30px;
     display: flex;
+    justify-content: center;
+    margin: 30px;
 }
+
 
 .access {
     width: 213px;
