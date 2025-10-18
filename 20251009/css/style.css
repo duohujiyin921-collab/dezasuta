@@ -162,7 +162,9 @@ header {
 .box_2 {
     display: flex;
     justify-content: space-between;
+    width: 38%;
 }
+
 
 .event {
     max-width: 1000px;
