@@ -46,16 +46,17 @@ header {
 .content {
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
-p {
+.midasi {
     font-size: 30px;
     margin: 104px 0 0 0;
     display: flex;
     justify-content: center;
 }
 
-.midasi {
+.midasi_0 {
     font-size: 82px;
     line-height: 1.17;
     letter-spacing: 0.1em;
@@ -73,6 +74,9 @@ p {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 .coffee img {
@@ -81,10 +85,11 @@ p {
     border-bottom-right-radius: 82px;
 }
 
-
+.about {
+    width: 37%;
+}
 
 .about_0 {
-    width: 272px;
     height: 77px;
     margin: 153px 0 0 0;
 }
@@ -93,14 +98,12 @@ p {
     margin: 50px 0 0 0;
     font-size: 44px;
     line-height: 1.38;
-    width: 360px;
 }
 
 .about_2 {
     font-size: 16px;
     line-height: 1.62;
     margin: 22px 0 0 0;
-    width: 410px;
 }
 
 .menu {
@@ -112,7 +115,8 @@ p {
 .menu_0 {
     width: 151px;
     height: 78px;
-    margin: 96px 0 38px 0;
+    margin: 96px auto 38px auto;
+    text-align: center;
 }
 
 .menu_1 {
@@ -120,6 +124,10 @@ p {
     justify-content: space-between;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.box {
+    width: 30%;
 }
 
 .drink_0 img {
@@ -136,43 +144,90 @@ p {
 .drink_2 {
     font-size: 17px;
     line-height: 1.47;
-    width: 300px;
+
     margin: 9px 0 0 0;
 }
 
-
-.food_0 img {
-    border-top-right-radius: 41px;
+.gallery {
+    width: 100%;
 }
 
-.food_1 {
-    color: red;
-    font-size: 38px;
-    line-height: 0.57;
-    padding-left: 10px;
+.gallery_0 {
+    width: 245px;
+    height: 78px;
+    text-align: center;
+    margin: 38px auto 16px auto;
 }
 
-.food_2 {
-    font-size: 17px;
-    line-height: 1.47;
-    width: 300px;
-    margin: 9px 0 0 0;
+.box_2 {
+    display: flex;
+    justify-content: space-between;
 }
 
-.sweets_0 img {
-    border-top-right-radius: 41px;
+.event {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.sweets_1 {
-    color: red;
-    font-size: 38px;
-    line-height: 0.57;
-    padding-left: 10px;
+.event_0 {
+    width: 173px;
+    height: 79px;
+    text-align: center;
+    margin: 59px auto 29px auto;
 }
 
-.sweets_2 {
-    font-size: 17px;
-    line-height: 1.47;
-    width: 300px;
-    margin: 9px 0 0 0;
+.event_1 {
+    max-width: 1000px;
+    height: 200px;
+    border: solid 3px saddlebrown;
+    background-color: #fff;
+    margin: 0 auto;
+
+}
+
+.box_3 {
+    font-size: 23px;
+    margin: 30px;
+    display: flex;
+}
+
+.access {
+    width: 213px;
+    height: 78px;
+    text-align: center;
+    margin: 69px auto 35px auto;
+}
+
+.access_0 iframe {
+    width: 100%;
+    height: 470px;
+    display: block;
+}
+
+.footer {
+    background-color: #fff;
+    width: 100%;
+    height: 393px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer_0 {
+    width: 226px;
+    height: 50px;
+    margin: 74px 65px 269px 0;
+}
+
+.footer_1 {
+    font-size: 20px;
+    line-height: 1.95;
+    width: 34%;
+    margin: 81px;
+}
+
+.top img {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 125px;
 }
