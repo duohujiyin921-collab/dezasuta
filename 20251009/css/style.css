@@ -49,14 +49,14 @@ header {
     text-align: center;
 }
 
-.midasi {
+.tagline {
     font-size: 30px;
     margin: 104px 0 0 0;
     display: flex;
     justify-content: center;
 }
 
-.midasi_0 {
+.title {
     font-size: 82px;
     line-height: 1.17;
     letter-spacing: 0.1em;
@@ -76,31 +76,40 @@ header {
     display: flex;
     padding-left: 5px;
     padding-right: 5px;
+    justify-content: space-between;
+    margin-top: 91px;
+}
 
+.coffee {
+    width: 50%;
 }
 
 .coffee img {
-    width: 500px;
-    margin: 91px 80px 0 0;
     border-bottom-right-radius: 82px;
 }
 
 .about {
-    width: 37%;
+    width: 41%;
 }
 
-.about_0 {
+.about_title {
     height: 77px;
-    margin: 153px 0 0 0;
+    margin: 61px 0 0 0;
 }
 
-.about_1 {
+.about_title img {
+    width: 65%;
+}
+
+
+.about_sub {
     margin: 50px 0 0 0;
     font-size: 44px;
     line-height: 1.38;
+    width: 83%;
 }
 
-.about_2 {
+.about_text {
     font-size: 16px;
     line-height: 1.62;
     margin: 22px 0 0 0;
@@ -112,14 +121,14 @@ header {
 }
 
 
-.menu_0 {
+.menu_title {
     width: 151px;
     height: 78px;
     margin: 96px auto 38px auto;
     text-align: center;
 }
 
-.menu_1 {
+.menu_box {
     display: flex;
     justify-content: space-between;
     padding-left: 5px;
@@ -130,21 +139,20 @@ header {
     width: 30%;
 }
 
-.drink_0 img {
+.menu_image img {
     border-top-right-radius: 41px;
 }
 
-.drink_1 {
+.menu_name {
     color: red;
     font-size: 38px;
     line-height: 0.57;
     padding-left: 10px;
 }
 
-.drink_2 {
+.menu_text {
     font-size: 17px;
     line-height: 1.47;
-
     margin: 9px 0 0 0;
 }
 
@@ -152,7 +160,7 @@ header {
     width: 100%;
 }
 
-.gallery_0 {
+.gallery_title {
     width: 245px;
     height: 78px;
     text-align: center;
@@ -171,27 +179,40 @@ header {
     margin: 0 auto;
 }
 
-.event_0 {
+.event_title {
     width: 173px;
     height: 79px;
     text-align: center;
     margin: 59px auto 29px auto;
 }
 
-.event_1 {
+.event_box {
     max-width: 1000px;
     height: 200px;
     border: solid 3px saddlebrown;
     background-color: #fff;
     margin: 0 auto;
+    text-align: center;
+}
+
+.event_innerbox {
+    display: inline-block;
+    margin-top: 37px;
 
 }
 
 .box_3 {
     font-size: 23px;
     display: flex;
-    justify-content: center;
-    margin: 30px;
+    margin: 15px;
+}
+
+.event_date {
+    margin-right: 50px;
+}
+
+.event_text {
+    border-bottom: 1px solid saddlebrown;
 }
 
 
@@ -202,7 +223,7 @@ header {
     margin: 69px auto 35px auto;
 }
 
-.access_0 iframe {
+.access_map iframe {
     width: 100%;
     height: 470px;
     display: block;
@@ -210,23 +231,33 @@ header {
 
 .footer {
     background-color: #fff;
-    width: 100%;
     height: 393px;
+    width: 100%;
+}
+
+.footer_innerbox {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.footer_content {
     display: flex;
-    justify-content: flex-start;
+    gap: 65px;
+    padding: 74px 0 74px 0;
 }
 
-.footer_0 {
+.footer_title {
     width: 226px;
-    height: 50px;
-    margin: 74px 65px 269px 0;
 }
 
-.footer_1 {
+.footer_text li {
     font-size: 20px;
     line-height: 1.95;
-    width: 34%;
-    margin: 81px;
+}
+
+.bottom {
+    font-size: 16px;
+    text-align: center;
 }
 
 .top img {
