@@ -1,7 +1,7 @@
 @charset "uft-8";
 
 body {
-    background-color: #eedcb3;
+    background-color: #e8d9bf;
 }
 
 header {
@@ -74,8 +74,7 @@ header {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 10px;
     justify-content: space-between;
     margin-top: 91px;
 }
@@ -94,7 +93,7 @@ header {
 
 .about_title {
     height: 77px;
-    margin: 61px 0 0 0;
+    margin-top: 58px;
 }
 
 .about_title img {
@@ -106,13 +105,12 @@ header {
     margin: 50px 0 0 0;
     font-size: 44px;
     line-height: 1.38;
-    width: 83%;
 }
 
 .about_text {
     font-size: 16px;
     line-height: 1.62;
-    margin: 22px 0 0 0;
+    margin-top: 22px;
 }
 
 .menu {
@@ -131,8 +129,8 @@ header {
 .menu_box {
     display: flex;
     justify-content: space-between;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .box {
@@ -144,7 +142,7 @@ header {
 }
 
 .menu_name {
-    color: red;
+    color: #d30202;
     font-size: 38px;
     line-height: 0.57;
     padding-left: 10px;
@@ -177,6 +175,8 @@ header {
 .event {
     max-width: 1000px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .event_title {
@@ -189,7 +189,7 @@ header {
 .event_box {
     max-width: 1000px;
     height: 200px;
-    border: solid 3px saddlebrown;
+    border: solid 3px #4f260b;
     background-color: #fff;
     margin: 0 auto;
     text-align: center;
@@ -243,7 +243,7 @@ header {
 .footer_content {
     display: flex;
     gap: 65px;
-    padding: 74px 0 74px 0;
+    padding: 74px 0 74px 10px;
 }
 
 .footer_title {
